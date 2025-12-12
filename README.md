@@ -43,15 +43,13 @@ SELECT col FROM table WHERE column > number;
 ## 📁 Project Structure
 
 mini-sql-database-engine/
-│
 ├── parser.py # SQL parser
 ├── engine.py # Query execution engine
 ├── cli.py # Command-line interface (REPL)
-│
 ├── sample_data/
 │ ├── employees.csv
 │ └── orders.csv
-│
+├── LICENSE
 └── README.md
 
 
