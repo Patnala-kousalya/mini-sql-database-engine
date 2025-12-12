@@ -41,16 +41,21 @@ SELECT col FROM table WHERE column > number;
 ---
 
 ## 📁 Project Structure
+## 📁 Project Structure
 
+```text
 mini-sql-database-engine/
-├── parser.py # SQL parser
-├── engine.py # Query execution engine
-├── cli.py # Command-line interface (REPL)
+│
+├── parser.py          # SQL parser
+├── engine.py          # Query execution engine
+├── cli.py             # Command-line interface (REPL)
+│
 ├── sample_data/
-│ ├── employees.csv
-│ └── orders.csv
-├── LICENSE
+│   ├── employees.csv
+│   └── orders.csv
+│
 └── README.md
+```
 
 
 ---
